@@ -13,6 +13,21 @@ welcome() {
 }
 welcome;
 
+#Fun Welcome Screen. Uncomment for a moose that tells you if the internet is on fire.
+#Note: install cosway to use
+#welcome() {
+    #------------------------------------------
+    #------WELCOME MESSAGE---------------------
+    # customize this first message with a message of your choice.
+    # this will display the username, date, time, a calendar, the amount of users, and the up time.
+    #clear
+    #echo -e ""; cal ;
+    #echo -ne "Today is "; date #date +"Today is %A %D, and it is now %R"
+    #echo -e ""
+#host -t txt istheinternetonfire.com | cut -f 2 -d '"' | cowsay -f moose
+#}
+#welcome;
+
 #aliases
 
 alias reload='source ~/.bash_profile'
