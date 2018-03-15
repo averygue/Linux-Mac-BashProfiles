@@ -5,6 +5,7 @@ brew install git
 brew install curl
 brew install vim
 brew install textmate
+brew install dark-mode
 #or brew install atom
 
 brew install slack
