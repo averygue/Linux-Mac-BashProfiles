@@ -1,9 +1,13 @@
 # colors have been set to blue and pink
 # Only name of user will be shown. 
 
+
 export CLICOLOR=true
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 PS1='\[\e[0;35m\]\u\[\e[0m\]$ '
+
+# Option 2: for location as well and different colours. Uncomment below
+#export PS1="\[\033[38;5;205m\]\u\[$(tput sgr0)\]\[\033[38;5;6m\]:\[$(tput sgr0)\]\[\033[38;5;207m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]: \[$(tput sgr0)\]"
 
 welcome() {
     # Calendar for welcome message.
