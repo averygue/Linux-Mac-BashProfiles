@@ -13,3 +13,4 @@ brew install virtualbox
 brew install spotify
 
 brew cask install 1password
+brew cask install cyberduck
