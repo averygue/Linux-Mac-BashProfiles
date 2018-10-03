@@ -14,3 +14,4 @@ brew install spotify
 
 brew cask install 1password
 brew cask install cyberduck
+brew cask install gfortran
