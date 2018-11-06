@@ -7,6 +7,8 @@ brew install vim
 brew install textmate
 brew install dark-mode
 #or brew install atom
+brew install sublime
+brew install swi-prolog
 
 brew install slack
 brew install virtualbox
